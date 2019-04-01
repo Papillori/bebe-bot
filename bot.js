@@ -413,9 +413,12 @@ client.on("error", () => {
 });
 
 // Client token, required for the bot to work
-try {
+//try {
     client.login(globalSettings.token);
-}
+}//
+
+client.login(process.env.BOT_TOKEN)
+
 catch (e) {
     console.log("ERROR: No account was linked to your bot. Please provide a valid authentication token. You can change it in the globalSettings.json file.")
 }
