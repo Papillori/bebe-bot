@@ -413,7 +413,7 @@ client.on("error", () => {
 });
 
 // Client token, required for the bot to work
-/try {
+try {
     client.login(process.env.BOT_TOKEN);
 }
 
