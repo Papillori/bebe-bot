@@ -9,7 +9,7 @@
   "private": false,
   "scripts": {
     /*"test": "jest tests/"*/
-     "start": "node bot.js"
+    "start": "node bot.js"
   },
   "devDependencies": {
     "jest": "^23.6.0"
